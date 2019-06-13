@@ -317,7 +317,6 @@ function compareAllCKeywords()
  });
  return false;
 }
-
 function highlightICFields()
 {
  if(tmpBuffer['product_family']!=$("input[name='txtProductFamily']").val()){
@@ -377,7 +376,6 @@ $("textarea#536f0b4d-6f68-bb7e-ac73-ad030453c0d5_1181308a-7435-4248-9c58-e7fd566
  else
   $("textarea#536f0b4d-6f68-bb7e-ac73-ad030453c0d5_1181308a-7435-4248-9c58-e7fd566d89be_TextArea").css('border', '1px solid #ccc');
 }
-
 function populateICFields()
 {
 $("span[name='lblProductFamily']").parent().append('<a href="#" class="cstm_cmp_link" t_1="input;txtProductFamily;name" t_2="product_family">View Changes</a>');
